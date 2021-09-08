@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+    /* 
+    Можно ли сюда запихнуть шрифт Open Sans? 
+    Если он преобладает на сайте в основном.
+    А Raleway обозначать когда нужно -_-  
+    */
+}
+
+.elements {
+  padding: 100px 0 108px;
+}
+
+.container {
+  max-width: 1146px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 16px;
+}
+
+.h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.title_elements {
+  color: #212121;
+  margin-bottom: 25px;
+}
+
+.line {
+  max-width: 64px;
+  height: 2px;
+}
+
+.line_elements {
+  background-color: #E72424;
+  margin: 0 auto 30px;
+}
+
+.text_elements {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+  margin-bottom: 67px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card:nth-child(2) {
+  margin: 0 32px;
+}
+
+.bcg {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #E72424;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto 30px;
+}
+
+.card_image_1 {
+  background-image: url(../img/lamp.svg);
+}
+
+.card_image_2 {
+  background-image: url(../img/keybourd.svg);
+}
+
+.card_image_3 {
+  background-image: url(../img/lightning.svg);
+}
+
+.h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.card_title {
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.card_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.downlouds {
+  background-image: url(../img/city.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.shadow {
+  background-color: rgba(0, 0, 0, 0.65);  /* а тут изза паддингов сломалась затемнялка */
+  padding: 76px 0 38px;                     /* пришлось их сюда сунуть)*/
+}
+
+.title_downlouds {
+  color: white;
+  margin-bottom: 48px;
+}
+
+.line_downlouds {
+  background-color: white;
+  margin: 0px auto 30px;
+}
+
+.text_downlouds {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+
+.btn_div {                      /* тут три часа ночи и я не понял почему кнопка не двигается марджинами */
+  display: flex;                
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {                        
+  width: 135px;
+  height: 42px;
+  background: inherit;
+  border: 1px solid #FFFFFF;
+}
+
+.btn_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
