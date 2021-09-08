@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+table {
+  text-align: center;
+}
+
+td {
+  width: 100px;
+  background-color:rgb(177, 200, 204);  
+}
+
+.table_title, .company_name {
+  background-color: rgb(118, 191, 204);
+  color: white;
+}
+
+.company_name {
+  text-align: left;
+  width: 200px;
+  height: 40px;
+}
