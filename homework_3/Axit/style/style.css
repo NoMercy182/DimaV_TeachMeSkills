@@ -132,7 +132,7 @@ li {
 
 .pricing_cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .pricing_card {
