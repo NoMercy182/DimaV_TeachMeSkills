@@ -150,7 +150,6 @@ li {
 }
 
 .pricing_options_title {
-  padding: 15px 0 8px;
   color: #ffffff;
 }
 
@@ -165,6 +164,7 @@ li {
 
 .pricing_card li:first-child {
   background-color:#333333;
+  padding: 15px 0 8px;
   margin-bottom: 2px;
 }
 
