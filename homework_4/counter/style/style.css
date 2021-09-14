@@ -1,0 +1,20 @@
+* {
+  font-size: 24px;
+}
+
+
+ol {
+  list-style-type: none;
+  counter-reset: some-text;      /* создаем переменную */
+}
+
+ol li {
+  counter-increment: some-text;
+}
+
+ol li::before {
+  content: 'part ' counter(some-text) ': ' ;
+}
+
+
+
