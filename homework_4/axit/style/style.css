@@ -233,6 +233,8 @@ li {
 }
 
 .comunication_card_text {
+  font-size: 14px;
+  line-height: 19px;
   color:#86878B;
   padding: 14px 30px;
   background-color: #E2E2E2;
