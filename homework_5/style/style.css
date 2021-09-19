@@ -31,6 +31,22 @@ header {
   z-index: 1;
 }
 
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_axit {
+  display: block;
+  width: 68px;
+  height: 31px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/logo.svg);
+}
+
 .container {
   max-width: 1146px;
   width: 100%;
@@ -38,18 +54,13 @@ header {
   padding: 0 16px;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .menu_list {
   display: flex;
-  gap: 48px;
+  column-gap: 48px;
 }
 
 .menu_link {
+  padding-bottom: 21px;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 600;
   font-size: 15px;
@@ -58,12 +69,10 @@ header {
   transition: .5s;
 }
 
-
-
 .menu_link:hover {
   font-size: 20px;
   color: #ffffff;
-  border-bottom: 7px solid #EC7979;
+  border-bottom: 2px solid #EC7979;
 }
 
 /*---------- header_content ---------*/
@@ -123,7 +132,7 @@ header {
   line-height: 42px;
   font-weight: 400;
   text-transform: uppercase;
-  width: 544px;
+  max-width: 544px;
   text-align: left;
   color: #ffffff;
   position: relative;
@@ -140,7 +149,7 @@ header {
 }
 
 .header_content_info_text {
-  width: 282px;
+  max-width: 282px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -186,6 +195,10 @@ header {
   justify-content: space-between;
 }
 
+.social_media_info {
+  max-width: 365px;
+}
+
 .social_media_title {
   font-weight: bold;
   font-size: 20px;
@@ -197,15 +210,15 @@ header {
   font-size: 14px;
   line-height: 19px;
   color: #86878B;
-  width: 365px;
 }
 
 .soc_media_list {
   display: flex;
-  gap: 42px;
+  column-gap: 42px;
 }
 
 .bcg_soc_media_icon {
+  display: block;
   width: 42px;
   height: 42px;
   background-size: contain;
@@ -249,7 +262,7 @@ header {
 
 .slider_tabs_container {
   display: flex;
-  gap: 118px;
+  column-gap: 118px;
   background-image: url(../img/town.jpg);
   background-position-x: right;
   background-repeat: no-repeat;
@@ -259,16 +272,16 @@ header {
 .tabs {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  row-gap: 10px;
 }
 
 .tab_btn {
+  display: block;
   background-color: #333333;
   color: #FFFFFF;
   border-radius: 10px;
   border: none;
-  width: 110px;
-  padding: 45px 0;
+  padding: 45px 35px;
   transition: .5s;
   font-size: 15px;
   line-height: 20px;
@@ -277,7 +290,6 @@ header {
 
 .tab_btn:hover {
   background-color: #EC7979;
-  font-size: 20px;
 }
 
 .slider_tabs_title {
@@ -572,8 +584,9 @@ header {
 
 .comunication_card_info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
 }
 
 .comunication_card_bcg {
@@ -593,7 +606,7 @@ h5 {
   margin-bottom: 12px;
 }
 
-.comunication_card_username li:last-child {
+.comunication_card_username_text {
   color: #86878B;
   font-size: 14px;
   line-height: 19px;
@@ -641,10 +654,11 @@ h5 {
 
 .text_downlouds {
   text-align: center;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .btn_downlouds { 
@@ -673,19 +687,13 @@ h5 {
 
 .social_icons {
   display: flex;
+  column-gap: 25px;
   justify-content: center;
   margin-bottom: 18px;
 }
 
-.social_icons li {
-  margin-right: 25px;
-}
-
-.social_icons li:last-child {
-  margin-right: 0px;
-}
-
 .bcg_soc_icon_footer {
+  display: block;
   width: 25px;
   height: 25px;
   background-size:cover;
